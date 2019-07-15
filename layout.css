@@ -1,0 +1,226 @@
+html,body
+{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+	min-width: 300px;
+	background-color: #f1e5e7;
+}
+
+.main
+{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	padding: 25px;
+	background-color: rgb(30, 38, 43);
+	color: white;
+}
+
+.main .image-tile
+{
+	display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 100%;
+    overflow: hidden;
+    border-color: white;
+    border-width: 5px;
+}
+
+.main .image-tile img
+{
+	width: 100%;
+	height: 100%;
+	border-style: none;
+
+}
+
+.main .content
+{
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	vertical-align: top;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 18px;
+}
+
+.main .content p
+{
+	display: block;
+	width: 100%;
+	text-align: justify;
+	line-height: 21px;
+	font-size: 18px;
+}
+
+.main .content h1
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.main .content a
+{
+	text-decoration: none;
+    width: 120px;
+    text-align: center;
+    border-style: solid;
+    box-sizing: border-box;
+    color: white;
+    padding: 10px;
+    margin-top: 12px;
+    border-width: 1px;
+    font-weight: bold;
+    transition: 0.444s;
+    margin: auto;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.highlight
+{
+	background-color: #5c4c71;
+}
+
+.main .content a:hover
+{
+	background-color: #7470bb;
+}
+
+.tile
+{
+	width: 100%;
+	height: 100vw;
+	display: block;
+	opacity: 0.8;
+	min-height: 300px;
+}
+
+.tile:hover
+{
+	transition: 0.444s;
+	opacity: 1.0;
+}
+
+.tile img
+{
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+}
+
+.overlay
+{
+	width: 195px;
+    height: 100px;
+    position: absolute;
+    opacity: 1.0;
+    padding: 15px;
+    box-sizing: border-box;
+    color: white;
+    user-select: none;
+}
+
+.overlay span
+{
+	font-size: 1.5em;
+}
+
+@media only screen and (min-width: 620px)
+{
+	.main
+	{
+		padding: 0px;
+		width: 100%;
+		height: 275px;
+		margin: auto;
+		max-width: 800px;
+	}
+
+  	.main .image-tile
+  	{
+  		display: inline-block;
+  		width: 20%;
+  		border-style: none;
+  		border-radius: 0px;
+	  	height: 100%;
+	  	vertical-align: top;
+	  	margin-bottom: 0px;
+	  	overflow: hidden;
+  	}
+
+	  .main .image-tile img
+	  {
+	  	width: auto;
+	  	height: 100%;
+	  	vertical-align: top;
+	  }
+
+  	.main .content
+  	{
+  		display: inline-block;
+  		width: 80%;
+  		text-align: left;
+  		box-sizing: border-box;
+  		padding: 50px;
+  		padding-top: 15px;
+  	}
+
+  	.cover 
+  	{
+	    width: 100%;
+	    box-sizing: border-box;
+	    padding: 46px;
+	    height: 83px;
+	    background-color: #5c4c71;
+	    padding-top: 15px;
+	}
+
+	.main .content p
+	{
+		font-size: 16px;
+	}
+
+	.main .content a
+	{
+		margin: 0px;
+	}
+
+	.tile
+	{
+		width: 33.3333333%;
+    	height: 100%;
+    	display: inline-block;
+    	overflow: hidden;
+	}
+
+	.tile img
+	{
+		width: 100%;
+		min-width: 300px;
+		height: 100%;
+	}
+
+	.wrap
+	{
+		display: block;
+		margin: auto;
+		width: 100%;
+		height: 300px;
+		max-width: 800px;
+	}
+
+	.overlay
+	{
+		width: 145px;
+	}
+}
