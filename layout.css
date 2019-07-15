@@ -185,6 +185,7 @@ html,body
   		box-sizing: border-box;
   		padding: 50px;
   		padding-top: 15px;
+  		padding-left: 15px;
   	}
 
   	.cover 
@@ -195,7 +196,6 @@ html,body
 	    height: 83px;
 	    background-color: #484250;
 	    padding-top: 15px;
-	    padding-left: 15px;
 	}
 
 	.main .content p
