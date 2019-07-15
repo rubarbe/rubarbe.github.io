@@ -124,6 +124,7 @@ html,body
     position: absolute;
     opacity: 1.0;
     padding: 15px;
+    padding-top: 0px;
     box-sizing: border-box;
     color: white;
     user-select: none;
